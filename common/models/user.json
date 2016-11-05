@@ -1,0 +1,30 @@
+{
+  "name": "user",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "realm": false,
+    "credentials": false,
+    "challenges": false,
+    "emailVerified": false,
+    "status": false,
+    "created": false,
+    "lastUpdated": false,
+    "verificationToken": false,
+    "email": false
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}
