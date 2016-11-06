@@ -36,5 +36,9 @@
   "blog": {
     "dataSource": "Mongo",
     "public": true
+  },
+  "project": {
+    "dataSource": "Mongo",
+    "public": true
   }
 }
