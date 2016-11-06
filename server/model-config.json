@@ -32,5 +32,9 @@
   "user": {
     "dataSource": "Mongo",
     "public": true
+  },
+  "blog": {
+    "dataSource": "Mongo",
+    "public": true
   }
 }
